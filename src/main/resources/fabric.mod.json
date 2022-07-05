@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "farview",
+  "version": "${version}",
+  "name": "Far View",
+  "description": "Improves far render distance option.",
+  "authors": [
+    "Ambos"
+  ],
+  "contact": {
+    "issues": "https://github.com/Amb0s/far-view/issues",
+    "sources": "https://github.com/Amb0s/far-view"
+  },
+  "license": "MIT",
+  "icon": "assets/farview/icon.png",
+  "environment": "*",
+  "mixins": [
+    "farview.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
