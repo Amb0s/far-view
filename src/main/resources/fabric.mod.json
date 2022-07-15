@@ -8,8 +8,9 @@
     "Ambos"
   ],
   "contact": {
-    "issues": "https://github.com/Amb0s/far-view/issues",
-    "sources": "https://github.com/Amb0s/far-view"
+    "homepage": "https://github.com/Amb0s/far-view",
+    "sources": "https://github.com/Amb0s/far-view",
+    "issues": "https://github.com/Amb0s/far-view/issues"
   },
   "license": "MIT",
   "icon": "assets/farview/icon.png",
@@ -18,7 +19,6 @@
     "farview.mixins.json"
   ],
   "depends": {
-    "fabricloader": "*",
-    "minecraft": "1.0.0-beta.7.3"
+    "fabricloader": ">=0.13.3"
   }
 }

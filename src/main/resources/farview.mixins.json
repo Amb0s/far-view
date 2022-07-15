@@ -1,13 +1,14 @@
 {
   "required": true,
+  "minVersion": "0.8",
   "package": "ambos.farview.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "DimensionMixin",
-    "GameRendererMixin",
-    "WorldRendererMixin"
+    "WorldProviderMixin",
+    "EntityRendererMixin",
+    "RenderGlobalMixin"
   ],
   "injectors": {
     "defaultRequire": 1
