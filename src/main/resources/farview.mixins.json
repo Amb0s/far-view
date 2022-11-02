@@ -1,16 +1,16 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "ambos.farview.mixin",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [
-  ],
-  "client": [
-    "WorldProviderMixin",
-    "EntityRendererMixin",
-    "RenderGlobalMixin"
-  ],
-  "injectors": {
-    "defaultRequire": 1
+    "required": true,
+    "minVersion": "0.8",
+    "package": "ambos.farview.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+    ],
+    "client": [
+        "WorldProviderMixin",
+        "EntityRendererMixin",
+        "RenderGlobalMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
   }
 }

@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "id": "farview",
   "version": "${version}",
+
   "name": "Far View",
   "description": "Improves far render distance option.",
   "authors": [
@@ -12,13 +13,24 @@
     "sources": "https://github.com/Amb0s/far-view",
     "issues": "https://github.com/Amb0s/far-view/issues"
   },
+
   "license": "MIT",
-  "icon": "assets/farview/icon.png",
+
+  "icon": "icon.png",
+
   "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ambos.farview.FarView"
+    ]
+  },
   "mixins": [
     "farview.mixins.json"
   ],
+
   "depends": {
     "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
   }
 }
